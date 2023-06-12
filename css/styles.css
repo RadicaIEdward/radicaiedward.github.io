@@ -1,0 +1,163 @@
+/* 
+ CSS HEX 
+--glaucous: #6184d8ff;
+--plum: #9b287bff;
+--verdigris: #50c5b7ff;
+--mimi-pink: #ffd2fcff;
+--tomato: #fe4a49ff;
+*/
+
+
+/* Global Styles --------------------------*/
+body {
+  color: #9b287bff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+img { 
+  width: 200px;
+}
+
+h2, h3 {
+  font-size: 30px;
+  margin: 0;
+  font-family: 'Patua One', cursive;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.wrapper {
+  max-width: 700px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+/*Global Links------------------- */
+a {
+  color: #ffd2fcff;;
+  background: #9b287bff;
+  padding: 3px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a:link {
+  color: #fe4a49ff;
+}
+
+a:focus {
+  color: #50c5b7ff;
+  outline: 1px solid black;
+}
+
+a:hover {
+  color: #50c5b7ff;
+}
+
+a:active {
+  color:  #6184d8ff;
+}
+
+/* Profile --------------------------*/
+header {
+  background:  #6184d8ff;
+}
+
+.my-name {
+  font-size: 48px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.job-title {
+  text-align: center;
+}
+
+
+/* Work Experience --------------------------*/
+.work-experience {
+  background: #fe4a49ff;
+  color: #ffd2fcff;
+}
+
+.fedex-container {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 25px;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+}
+
+.jobs-container {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0px;
+  column-gap: 15px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.job-item {
+  flex:1 1 300px;
+  border: 2px #6184d8ff;
+  
+}
+
+
+
+
+/* Education --------------------------*/
+.education {
+  background: #50c5b7ff;
+}
+
+.skills {
+  list-style-type: none;
+  margin: auto 0;
+  padding: 0;
+}
+
+/* Contact Info --------------------------*/
+
+
+
+/* Links --------------------------*/
+footer {
+  background:  #6184d8ff;
+  color: #ffd2fcff;
+  padding-bottom: 10px;
+}
+
+footer a:hover{
+  background: rgba(155, 40, 123, .50);
+}
+
+/* Form Validation ------------------------------ */
+
+input:invalid {
+  border: 2px solid orange;
+}
+
+/* Thank You page ------------------------------ */
+.thank-body {
+  background: #fe4a49ff;
+  color: #ffd2fcff;
+}
+
+.thank-you-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
