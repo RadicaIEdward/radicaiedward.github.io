@@ -163,11 +163,8 @@ input:invalid {
 }
 
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-  
-  h1 {
+  and (max-device-width: 450px) {
+  .my-name {
     font-size: 30px;
   }
 }
